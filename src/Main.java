@@ -38,9 +38,18 @@ public class Main {
 
 
 
-        Person personOne = new Person("Predro", "Pascal", 48, "Mandaloriano", 4, true);
-        System.out.println(personOne.giveCompletName() + " tiene " + personOne.age + " años y esta recibida de " + personOne.master.name);
+//        Person personOne = new Person("Ricardo", "Pascal", 48);
+//        personOne.setName("Ricardo");
+//        personOne.setLast_name("Darin");
+//        System.out.println(personOne.giveCompletName() + " tiene " + personOne.getAge() + " años");
 
+        Animal animal = new Animal("Bestia", 200);
+        Cat cat = new Cat("Minina", 1);
+        Dog dog = new Dog("Mia", 8);
+
+        System.out.println("El animal llamado " + animal.name + " hace " + animal.makeNoise());
+        System.out.println("El gato llamado " + cat.name + " hace " + cat.makeNoise());
+        System.out.println("El perro llamado " + dog.name + " hace " + dog.makeNoise());
 
     }
 }
