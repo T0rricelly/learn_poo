@@ -50,6 +50,7 @@ public class Main {
         System.out.println("El animal llamado " + animal.name + " hace " + animal.makeNoise());
         System.out.println("El gato llamado " + cat.name + " hace " + cat.makeNoise());
         System.out.println("El perro llamado " + dog.name + " hace " + dog.makeNoise());
-
+        System.out.println("El total de los animales creados es de: " + Animal.getCountAnimals());
+        System.out.println("Yo atiendo mis animales en " + Veterinaria.name);
     }
 }
